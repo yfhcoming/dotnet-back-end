@@ -1,0 +1,21 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "KnowbaseService";
+
+service GrpcKnowbase {
+    rpc GetAllKnowbases (GetAllRequest) returns (KnowbaseResponse);
+}
+
+message GetAllRequest {}
+
+message GrpcKnowbaseModel{
+    int32 knowbaseId = 1;
+    string name = 2;
+    string owner = 3;
+    string img = 4;
+}
+
+message KnowbaseResponse {
+    repeated GrpcKnowbaseModel knowbase = 1;
+}
+
