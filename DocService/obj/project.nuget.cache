@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JwIqFjc6N8uKVFPfwa6q643uX5Gr1B2ZtZ4lL9kHnYVA7+PHA22pYHU8lh3VY3ph9HoI534PBpqaxp/xSrOzrQ==",
+  "dgSpecHash": "4+NjUjsMGoxPa61zduySfkJn8zSfd6RP4xBfCpLqZOpgj/E2uyaZ98OREL0iReRFw2ztrsmc/cyrS4yFTs8W8g==",
   "success": true,
-  "projectFilePath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\DocService\\DocService.csproj",
+  "projectFilePath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\DocService\\DocService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Feihang Yang\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Feihang Yang\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

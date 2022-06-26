@@ -15,8 +15,6 @@ namespace CommunityService.Models
         public string Title { get; set; }
         [Required]
         public string Content { get; set; }
-/*        [Required]
-        public DateTime CreateTime { get; set; }*/
         [Required]
         public int LikeNum { get; set; }
     }

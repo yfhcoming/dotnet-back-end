@@ -34,11 +34,9 @@ namespace CommunityService.Controllers
         [EnableCors("CorsPolicy")] //允许跨域
         public ActionResult<IEnumerable<Post>> GetPosts()
         {
-            Console.WriteLine("--> Getting Platforms....");
+            Console.WriteLine("--> Getting Posts....");
 
             var postsItem = _repository.GetAllPosts();
-
-            Console.WriteLine("--> Getting Platforms.... Done");
 
             return Ok(postsItem);
         }

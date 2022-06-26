@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: knowbase-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: knowbaseservice
+  template:
+    metadata:
+      labels:
+        app: knowbaseservice
+    spec:
+      containers:
+        - name: knowbaseservice
+          image: hylissang/knowbaseservice:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: knowbase-clusterip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: knowbaseservice
+  ports:
+  - name: knowbaseservice
+    protocol: TCP
+    port: 80
+    targetPort: 5000
+  - name: knowbasegrpc
+    protocol: TCP
+    port: 666
+    targetPort: 666

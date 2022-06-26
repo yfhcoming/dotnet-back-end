@@ -18,11 +18,6 @@ namespace CommunityService.Data
 
         void CreatePost(Post Post);
 
-        /*        void RemovePost(Post post);*/
-
-        /*        void LikePost(int id);*/
-
-
         List<LikePostDto> GetAllPostsByLike();
 
     }

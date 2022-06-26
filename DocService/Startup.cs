@@ -30,6 +30,10 @@ namespace DocService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //显式的指定HTTP/2不需要TLS支持
+            AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
+            AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2Support", true);
+
             services.AddDbContext<AppDbContext>(opt =>
                 opt.UseSqlServer(Configuration.GetConnectionString("DocsConn")));
 

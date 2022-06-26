@@ -49,7 +49,7 @@ namespace KnowbaseService.Controllers
         public ActionResult<IEnumerable<KnowbaseReadDto>> GetKnowbases()
         {
 
-            
+
             Console.WriteLine(printLog());
 
             var knowbaseItem = _repository.GetAllKnowbases();

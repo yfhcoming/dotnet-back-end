@@ -57,16 +57,6 @@ namespace CommunityService.Data
             return _context.Posts.FirstOrDefault(p => p.Id == id);
         }
 
-/*        public void LikePost(int id)
-        {
-            var post = GetPostById(id);
-        }*/
-
-        /*        public void RemovePost(Post post)
-                {
-                    _context.Posts.Add(post);
-                }*/
-
         public bool SaveChanges()
         {
             return (_context.SaveChanges() >= 0);

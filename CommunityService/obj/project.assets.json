@@ -5862,11 +5862,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\CommunityService\\CommunityService.csproj",
+      "projectUniqueName": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\CommunityService\\CommunityService.csproj",
       "projectName": "CommunityService",
-      "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\CommunityService\\CommunityService.csproj",
+      "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\CommunityService\\CommunityService.csproj",
       "packagesPath": "C:\\Users\\Feihang Yang\\.nuget\\packages\\",
-      "outputPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\CommunityService\\obj\\",
+      "outputPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\CommunityService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Feihang Yang\\AppData\\Roaming\\NuGet\\NuGet.Config",

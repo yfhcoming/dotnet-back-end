@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\KnowbaseService\\KnowbaseService.csproj": {}
+    "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\KnowbaseService\\KnowbaseService.csproj": {}
   },
   "projects": {
-    "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\KnowbaseService\\KnowbaseService.csproj": {
+    "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\KnowbaseService\\KnowbaseService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\KnowbaseService\\KnowbaseService.csproj",
+        "projectUniqueName": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\KnowbaseService\\KnowbaseService.csproj",
         "projectName": "KnowbaseService",
-        "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\KnowbaseService\\KnowbaseService.csproj",
+        "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\KnowbaseService\\KnowbaseService.csproj",
         "packagesPath": "C:\\Users\\Feihang Yang\\.nuget\\packages\\",
-        "outputPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\KnowbaseService\\obj\\",
+        "outputPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\KnowbaseService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Feihang Yang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\ServiceCount\\ServiceCount.vcxproj": {
-                "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\ServiceCount\\ServiceCount.vcxproj"
+              "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\ServiceCount\\ServiceCount.vcxproj": {
+                "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\ServiceCount\\ServiceCount.vcxproj"
               }
             }
           }
@@ -101,11 +101,11 @@
         }
       }
     },
-    "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\ServiceCount\\ServiceCount.vcxproj": {
+    "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\ServiceCount\\ServiceCount.vcxproj": {
       "restore": {
-        "projectUniqueName": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\ServiceCount\\ServiceCount.vcxproj",
+        "projectUniqueName": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\ServiceCount\\ServiceCount.vcxproj",
         "projectName": "ServiceCount",
-        "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\ServiceCount\\ServiceCount.vcxproj",
+        "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\ServiceCount\\ServiceCount.vcxproj",
         "frameworks": {
           "native": {
             "projectReferences": {}

@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: doc-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: docservice
+  template:
+    metadata:
+      labels:
+        app: docservice
+    spec:
+      containers:
+        - name: docservice
+          image: hylissang/docservice:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: doc-clusterip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: docservice
+  ports:
+  - name: docservice
+    protocol: TCP
+    port: 80
+    targetPort: 6000

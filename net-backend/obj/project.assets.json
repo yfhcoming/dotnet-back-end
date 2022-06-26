@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\net-backend\\net-backend.csproj",
+      "projectUniqueName": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\net-backend\\net-backend.csproj",
       "projectName": "net-backend",
-      "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\net-backend\\net-backend.csproj",
+      "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\net-backend\\net-backend.csproj",
       "packagesPath": "C:\\Users\\Feihang Yang\\.nuget\\packages\\",
-      "outputPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\net-backend\\obj\\",
+      "outputPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\net-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Feihang Yang\\AppData\\Roaming\\NuGet\\NuGet.Config",

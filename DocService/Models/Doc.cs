@@ -23,9 +23,6 @@ namespace DocService.Models
         public int KnowbaseId { get; set; }
 
 
-        /*        [Required]
-                public string tag { get; set; }*/
-
 
         public Knowbase Knowbase { get; set; }
     }

@@ -28,7 +28,7 @@ namespace DocService.Controllers
         [EnableCors("CorsPolicy")] //允许跨域
         public ActionResult<IEnumerable<KnowbaseReadDto>> Getknowbases()
         {
-            Console.WriteLine("--> Getting Platforms from CommandsService");
+            Console.WriteLine("--> Getting Knowbases from DocService");
 
             var knowbaseItems = _repository.GetAllKnowbases();
 

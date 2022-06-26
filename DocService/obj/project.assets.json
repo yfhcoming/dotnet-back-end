@@ -6370,11 +6370,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\DocService\\DocService.csproj",
+      "projectUniqueName": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\DocService\\DocService.csproj",
       "projectName": "DocService",
-      "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\DocService\\DocService.csproj",
+      "projectPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\DocService\\DocService.csproj",
       "packagesPath": "C:\\Users\\Feihang Yang\\.nuget\\packages\\",
-      "outputPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\项目\\net-backend\\DocService\\obj\\",
+      "outputPath": "D:\\2022 - 学习\\2022 - coursework\\.NET-final\\final\\project\\net-backend\\DocService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Feihang Yang\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -21,7 +21,5 @@ namespace KnowbaseService.Models
         [Required]
         public string img { get; set; }
 
-/*        [Required]
-        public string Cost { get; set; }*/
     }
 }

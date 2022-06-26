@@ -18,7 +18,7 @@ namespace CommunityService.Dtos
         {
             if (null == other)
             {
-                return 0;//空值比较大，返回1
+                return 0;//空值比较小，返回0
             }
             return other.LikeNum.CompareTo(this.LikeNum);//降序
         }
